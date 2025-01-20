@@ -27,7 +27,7 @@ app.use(express.urlencoded({ extended: true })); //to parse form data
 app.use(cookieParser()); //to parse cookies
 app.use(
   cors({
-    origin: "https://tejutwitter.netlify.app", // Replace with your frontend's URL
+    origin: "https://678ddc2d80a976374699f53b--legendary-churros-cab1af.netlify.app/", // Replace with your frontend's URL
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true, // If you need cookies or authentication headers
   })
