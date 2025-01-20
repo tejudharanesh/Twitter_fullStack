@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_ENDPOINT = "https://localhost:5000";
+const API_ENDPOINT = "https://twitter-j89n.onrender.com";
 console.log("API Endpoint:", API_ENDPOINT);
 
 /**
